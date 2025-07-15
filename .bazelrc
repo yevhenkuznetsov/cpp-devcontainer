@@ -1,0 +1,4 @@
+common --repo_env=CC=clang
+
+# Ignore compiler errors when generating compile_commands.json
+build:extract --cxxopt=-Wno-error
