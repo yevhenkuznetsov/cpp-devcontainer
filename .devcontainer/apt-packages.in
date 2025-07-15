@@ -1,0 +1,20 @@
+# Essential system utilities
+ca-certificates
+curl
+locales
+ssh
+sudo
+tzdata
+
+# Development tools
+bash-completion
+clang
+clang-format
+clangd
+git
+git-lfs
+gdb
+
+# Static code analysis
+clang-tidy
+cppcheck
