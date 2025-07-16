@@ -1,7 +1,2 @@
-common --repo_env=CC=clang
-
-# Use C++23 standard (explicit toolchain setup might be unnecessary for now)
-build --cxxopt=-std=c++23
-
 # Ignore compiler errors when generating compile_commands.json
 build:extract --cxxopt=-Wno-error

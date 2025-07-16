@@ -1,3 +1,3 @@
 #pragma once
 
-auto foo() -> const int;
+auto foo() -> int;

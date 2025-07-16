@@ -1,6 +1,6 @@
 #include "app/app.hpp"
 
-auto foo() -> const int
+auto foo() -> int
 {
     return 0;
 }
